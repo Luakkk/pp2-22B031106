@@ -1,9 +1,6 @@
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-mydict = dict(thisdict)
-print(mydict)
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
 
-# Make a copy of a dictionary with the dict() function
+set1.update(set2)
+print(set1) 
+# The update() method inserts the items in set2 into set1:

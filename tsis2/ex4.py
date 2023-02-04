@@ -1,13 +1,7 @@
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
 }
-
-x = car.values()
-
-print(x) #before the change
-
-car["color"] = "red"
-
-print(x) #after the change
+del thisdict
+# print(thisdict) -- this will cause an error because "thisdict" no longer exists.

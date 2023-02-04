@@ -1,13 +1,6 @@
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
-}
+thisset = {"apple", "banana", "cherry"}
+mylist = ["kiwi", "orange"]
 
-x = car.values()
+thisset.update(mylist)
 
-print(x) #before the change
-
-car["year"] = 2020
-
-print(x) #after the change
+print(thisset)
